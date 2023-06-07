@@ -1,0 +1,10 @@
+.imagen {
+    display: block;
+    margin: 0 auto;
+    border-radius: 80px;
+    position: relative;
+    background-color: aquamarine;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  

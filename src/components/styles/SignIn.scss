@@ -1,0 +1,37 @@
+@import "./variables.scss"; // Importa tus variables de Sass si las tienes
+
+.SignIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  
+  h2 {
+    color: $primary-color; // Utiliza tus variables de Sass para mantener la consistencia
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: 1px solid $secondary-color;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  button {
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: $secondary-color;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
